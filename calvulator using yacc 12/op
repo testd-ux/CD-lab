@@ -1,0 +1,15 @@
+sdx@pop-os:~/Desktop/CD-lab-main/12$ yacc -d file.y
+sdx@pop-os:~/Desktop/CD-lab-main/12$ lex file.l
+sdx@pop-os:~/Desktop/CD-lab-main/12$ gcc lex.yy.c y.tab.c -w
+^[[Asdx@pop-os:~/Desktop/CD-lab-main/12$ ./a.out
+
+Enter expression:4+5
+Res=9
+
+sdx@pop-os:~/Desktop/CD-lab-main/12$ ./a.out
+
+Enter expression:6*4
+Res=24
+sdx@pop-os:~/Desktop/CD-lab-main/12$ 
+
+

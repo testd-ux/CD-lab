@@ -1,0 +1,9 @@
+int main() {
+
+int total = 10;
+
+total total + 5;
+
+return
+
+total; }

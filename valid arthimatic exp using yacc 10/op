@@ -1,0 +1,19 @@
+sdx@pop-os:~/Desktop/CD-lab-main/10$ yacc -d file.y
+sdx@pop-os:~/Desktop/CD-lab-main/10$ lex file.l
+sdx@pop-os:~/Desktop/CD-lab-main/10$ gcc lex.yy.c y.tab.c -w
+sdx@pop-os:~/Desktop/CD-lab-main/10$ ./a.out
+
+sdx@pop-os:~/Desktop/CD-lab-main/10$ ./a.out
+
+Enter the expression:
+a=+b;
+
+Invalid expression!
+sdx@pop-os:~/Desktop/CD-lab-main/10$ ./a.out
+
+Enter the expression:
+a=b+c;
+
+Valid expression!
+sdx@pop-os:~/Desktop/CD-lab-main/10$ 
+

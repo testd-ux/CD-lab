@@ -1,0 +1,15 @@
+sdx@pop-os:~/Desktop/CD-lab-main/11$ yacc -d file.y
+sdx@pop-os:~/Desktop/CD-lab-main/11$ lex file.l
+sdx@pop-os:~/Desktop/CD-lab-main/11$ gcc lex.yy.c y.tab.c -w
+sdx@pop-os:~/Desktop/CD-lab-main/11$ ./a.out
+
+Enter a name to tested for identifier abc
+
+It is a identifier!
+sdx@pop-os:~/Desktop/CD-lab-main/11$ ./a.out
+
+Enter a name to tested for identifier '5256
+
+Its not a identifier!
+sdx@pop-os:~/Desktop/CD-lab-main/11$ 
+
